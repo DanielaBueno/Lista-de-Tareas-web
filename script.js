@@ -10,7 +10,7 @@ function agregarTarea(){
     let nuevaTarea = document.createElement("li");
     nuevaTarea.textContent = nuevaTareaTexto+"";
 
-    let botonEliminar=docuemnt.createElement("button");
+    let botonEliminar=document.createElement("button");
     botonEliminar.textContent="Eliminar";
     botonEliminar.onclick=function(){
         nuevaTarea.remove();
