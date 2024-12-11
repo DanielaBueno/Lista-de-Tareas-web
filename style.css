@@ -1,8 +1,71 @@
-body{
-    font-family: 'Trebuchet MS';
+body {
+    font-family: 'Trebuchet MS', sans-serif;
     text-align: center;
+    background-color: cadetblue;
+    margin: 0;
+    padding: 0;
 }
 
-li{
-    
+section {
+    border-radius: 20px;
+    background-color: burlywood;
+    max-width: 300px;
+    margin: 50px auto; /* Centra la sección */
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); /* Agrega sombra para dar profundidad */
+}
+
+input, button {
+    border-radius: 5px;
+    margin: 5px 3px;
+    padding: 8px 12px; /* Un poco de padding para mejorar la apariencia */
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+input {
+    width: 70%; /* El input ocupa un 70% del ancho */
+}
+
+.add {
+    background-color: pink;
+    color: #3d3d3d;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.add:hover {
+    background-color:yellow; /* Cambio de color al pasar el mouse */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color:cornsilk;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background-color: #f44336; /* Rojo para eliminar */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e53935; /* Cambio de color cuando se pasa el mouse */
+}
+
+li button {
+    margin-left: 10px;
 }
