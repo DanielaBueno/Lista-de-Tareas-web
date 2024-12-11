@@ -8,13 +8,15 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <h1>To-do List</h1>
-    <input type="text" id="nuevaTarea" placeholder="ingrese una nueva tarea">
-    <button onclick="agregarTarea()">Agregar Tarea</button>
-
-    <ul id="listaTareas">
-        <!-- Aquí se cargan las tareas almacenadas en el localStorage -->
-    </ul>
+    <section>
+        <h1>To-do List</h1>
+        <input type="text" id="nuevaTarea" placeholder="Ingrese una nueva tarea">
+        <button class='add' onclick="agregarTarea()">Agregar Tarea</button>
+        
+        <ul id="listaTareas">
+            <!-- Aquí se cargan las tareas almacenadas en el localStorage -->
+        </ul>
+    </section>
     
 </body>
 </html>
